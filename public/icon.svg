@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#040612" />
+      <stop offset="50%" stop-color="#0c1226" />
+      <stop offset="100%" stop-color="#1e1035" />
+    </linearGradient>
+    <linearGradient id="pGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#9333ea" />
+      <stop offset="100%" stop-color="#d946ef" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#9333ea" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- App Background -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+
+  <!-- Outer ambient ring -->
+  <rect x="32" y="32" width="448" height="448" rx="96" fill="none" stroke="#9333ea" stroke-opacity="0.25" stroke-width="4" />
+
+  <!-- Main HolPDF Brand Icon Card -->
+  <rect x="96" y="96" width="320" height="320" rx="72" fill="url(#pGrad)" filter="url(#shadow)" />
+
+  <!-- Stylized P Graphic -->
+  <path d="M192 168h88c39.76 0 72 32.24 72 72s-32.24 72-72 72h-40v56h-48V168zm48 40v64h40c17.67 0 32-14.33 32-32s-14.33-32-32-32h-40z" fill="#ffffff" />
+  
+  <!-- Red PDF Accent dot -->
+  <circle cx="344" cy="344" r="28" fill="#ef4444" stroke="#ffffff" stroke-width="6" />
+  <text x="344" y="350" font-family="system-ui, sans-serif" font-size="14" font-weight="900" fill="#ffffff" text-anchor="middle">PDF</text>
+</svg>

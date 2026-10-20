@@ -1,0 +1,6 @@
+{
+  "name": "HolPdf",
+  "description": "Lis. Écoute. Avance. Vos PDF, une nouvelle dimension - lecteur et audiolivre de PDF intelligent avec surlignage et recherche.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
